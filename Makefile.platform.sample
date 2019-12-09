@@ -2,6 +2,16 @@
 # Run 'make PLATFORM=' to get an exhaustive list of possible parameters for this file.
 
 PLATFORM=PM3RDV4
+# PLATFORM=PM3OTHER
+
 # If you want more than one PLATFORM_EXTRAS option, separate them by spaces:
-#PLATFORM_EXTRAS=BTADDON
-#STANDALONE=LF_SAMYRUN
+# PLATFORM_EXTRAS=BTADDON
+
+STANDALONE=LF_SAMYRUN     # (default) HID26 read/clone/sim - Samy Kamkar
+# STANDALONE=LF_ICERUN	  # standalone mode skeleton - iceman
+# STANDALONE=LF_PROXBRUTE	# HID ProxII bruteforce - Brad Antoniewicz
+# STANDALONE=LF_HIDBRUTE	# HID corporate 1000 bruteforce - Federico dotta & Maurizio Agazzini
+# STANDALONE=HF_YOUNG	    # Mifare sniff/simulation - Craig Young
+# STANDALONE=HF_MATTYRUN	# Mifare sniff/clone - Matías A. Ré Medina
+# STANDALONE=HF_COLIN	    # Mifare ultra fast sniff/sim/clone - Colin Brigato
+# STANDALONE=HF_BOG	      # 14a sniff with ULC/ULEV1/NTAG auth storing in flashmem - Bogito
